@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Apps Script</title>
+    <style>
+        /* Menghilangkan margin, padding, dan scrollbar pada halaman utama agar tampilan asli memenuhi layar 100% */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menampilkan URL Google Apps Script secara utuh tanpa tambahan UI apapun -->
+    <iframe 
+        src="https://script.google.com/macros/s/AKfycbxEzzdKqxiOZvjUIexQ1g0X7c25umokqXW3rZGPb0xrLWNFHeZ0bUFH9nASRT_U9WJKMQ/exec" 
+        allow="geolocation; microphone; camera; midi; encrypted-media; autoplay; clipboard-write"
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
